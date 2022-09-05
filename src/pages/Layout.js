@@ -22,6 +22,8 @@ const Layout = () => {
       </Navbar>
 
       <Outlet />
+      
+      <footer>Hello</footer>
     </>
   );
 };

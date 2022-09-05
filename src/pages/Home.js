@@ -10,6 +10,13 @@ import {
 const Home = () => {
   return (
     <>
+      <div>
+        <h1>Donate to Connect your Community</h1>
+        <p>There are great nonprofit, educational organizations who explore the cutting edge, teaches advanced computer concepts and practices and connects other software engineers to each other - O(1) Software Network does all three.</p>
+        <button>Donate Now</button>
+        <button>Donate Monthly</button>
+      </div>
+
       <PhotoContainer />
 
       <MarketingContainer>

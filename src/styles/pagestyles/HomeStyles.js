@@ -7,11 +7,14 @@ import connecticutCodersPhoto from '../../images/CC.png';
 export const PhotoContainer = styled.div`
   background-image: url(${connecticutCodersPhoto});
   height: 40vh;
+  width: 90%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   filter: brightness(90%);
+  border-radius: 50px;
+  margin: 0 auto;
 `;
 
 export const MarketingContainer = styled.div`
